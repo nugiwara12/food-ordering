@@ -8,7 +8,7 @@ const NavbarOutside = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-gray-800 p-4 mb-4">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <button
