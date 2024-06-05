@@ -1,5 +1,4 @@
 import React from "react";
-import { IoCloseCircleOutline } from "react-icons/io5";
 
 const KapampanganModal = ({ isVisible, onClose }) => {
   if (!isVisible) return null;
@@ -15,12 +14,9 @@ const KapampanganModal = ({ isVisible, onClose }) => {
       id="wrapper"
       onClick={handleClose}
     >
-      <div className="h-[600px] w-[1100px] flex flex-col mb-6">
-        <button className="text-white place-self-end" onClick={onClose}>
-          <IoCloseCircleOutline />
-        </button>
-        <div className="h-screen bg-gray-100 pt-5">
-          <h1 className="mb-4 text-center text-2xl font-bold md:text-3xl lg:text-4xl">
+      <div className="h-[500px] w-[1000px] bg-gray-400 flex justify-center mb-6 overflow-y-auto md:overflow-y-hidden">
+        <div className="h-screen">
+          <h1 className="mb-4 text-center text-2xl font-bold md:text-3xl lg:text-4xl pt-4">
             Order Items
           </h1>
           <div className="mx-auto max-w-5xl justify-center px-6 md:flex md:space-x-6 xl:px-0">
@@ -90,7 +86,7 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                 </div>
               </div>
             </div>
-            <div className="mt-6 h-full rounded-lg border bg-white p-6 shadow-md md:mt-0 md:w-1/3 lg:w-1/4 xl:w-1/5">
+            <div className="mt-6 h-full rounded-lg border bg-white p-6 shadow-md w-full">
               <div className="mb-2 flex justify-between">
                 <p className="text-gray-700">Subtotal</p>
                 <p className="text-gray-700">₱120.000</p>
@@ -104,12 +100,18 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                 <p className="text-lg font-bold">Total</p>
                 <div className="">
                   <p className="mb-1 text-lg font-bold">₱140.000</p>
-                  <p className="text-sm text-gray-700">including Shipping</p>
                 </div>
               </div>
-              <button className="mt-6 w-full rounded-md bg-yellow-600 py-1.5 font-medium text-blue-50 hover:bg-yellow-700">
-                Check out
-              </button>
+              <div className="flex justify-center items-center ">
+                <button className="mt-6 w-48 rounded-md bg-yellow-600 py-1.5 font-medium text-blue-50 hover:bg-yellow-700">
+                  Check out
+                </button>
+              </div>
+              <div className="flex justify-center items-center ">
+                <button className="mt-6 w-48 rounded-md bg-yellow-600 py-1.5 font-medium text-blue-50 hover:bg-yellow-700">
+                  Cancel
+                </button>
+              </div>
             </div>
           </div>
         </div>
