@@ -14,15 +14,15 @@ const KapampanganModal = ({ isVisible, onClose }) => {
       id="wrapper"
       onClick={handleClose}
     >
-      <div className="h-[500px] w-[1000px] bg-gray-400 flex justify-center mb-6 overflow-y-auto md:overflow-y-hidden">
+      <div className="h-[500px] w-[1000px] bg-opacity-10 flex justify-center mb-6 overflow-y-auto md:overflow-y-hidden">
         <div className="h-screen">
-          <h1 className="mb-4 text-center text-2xl font-bold md:text-3xl lg:text-4xl pt-4">
-            Order Items
-          </h1>
           <div className="mx-auto max-w-5xl justify-center px-6 md:flex md:space-x-6 xl:px-0">
             <div className="rounded-lg md:w-2/3 lg:w-3/4 xl:w-4/5">
               {/* Cart item 1 */}
               <div class="flex flex-col items-center justify-center mb-6 rounded-lg bg-white p-6 shadow-md sm:flex sm:justify-start">
+                <h1 className="mb-4 text-center text-2xl font-bold md:text-3xl lg:text-4xl pt-4">
+                  Order Items
+                </h1>
                 <div class="flex justify-center items-center w-20 h-20 mb-4">
                   <img src="/logo/foodhub.png" alt="Image" class="md:m-auto" />
                 </div>
@@ -108,7 +108,10 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                 </button>
               </div>
               <div className="flex justify-center items-center ">
-                <button className="mt-6 w-48 rounded-md bg-yellow-600 py-1.5 font-medium text-blue-50 hover:bg-yellow-700">
+                <button
+                  className="mt-6 w-48 rounded-md bg-yellow-600 py-1.5 font-medium text-blue-50 hover:bg-yellow-700"
+                  onClick={onClose}
+                >
                   Cancel
                 </button>
               </div>
