@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import NavbarOutside from "../../../../../components/Navbar/NavbarOutside";
-import { BiArrowBack } from "react-icons/bi";
 import KapampanganModal from "../../../../../components/MenuModal/KapampanganModal";
 import KapampanganButton from "../../../../../components/Button/KapampanganButton";
 
@@ -39,14 +38,24 @@ const Kapampangan = () => {
             alt="Sinigang"
             className="h-40 w-40"
           />
-          <h2 className="text-lg font-bold mt-2">Sinigang</h2>
+          <h2 className="text-lg font-bold mt-2">Kaldereta</h2>
           <p className="text-sm text-gray-600 mb-4">A classic Filipino dish</p>
-          <KapampanganButton onClick={() => handleOpenModal("Sinigang")} />
+          <KapampanganButton onClick={() => handleOpenModal("Kaldereta")} />
+        </div>
+        <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
+          <img
+            src="/menu/kapampangan/Kaldereta.png"
+            alt="kaldereta"
+            className="h-36 w-40 rounded-full"
+          />
+          <h2 className="text-lg font-bold mt-2">Kaldereta</h2>
+          <p className="text-sm text-gray-600 mb-4">A classic Filipino dish</p>
+          <KapampanganButton onClick={() => handleOpenModal("Kaldereta")} />
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
           <img
             src="/menu/kapampangan/sisig.png"
-            alt="Leche Flan"
+            alt="Sisig"
             className="h-36 w-40 rounded-full"
           />
           <h2 className="text-lg font-bold mt-2">Sisig</h2>
@@ -55,33 +64,23 @@ const Kapampangan = () => {
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
           <img
-            src="/menu/kapampangan/sisig.png"
-            alt="Leche Flan"
+            src="/menu/kapampangan/sinampalukan.png"
+            alt="Sinampalukang Manok"
             className="h-36 w-40 rounded-full"
           />
-          <h2 className="text-lg font-bold mt-2">Sisig</h2>
+          <h2 className="text-lg font-bold mt-2">Buro</h2>
           <p className="text-sm text-gray-600 mb-4">A classic Filipino dish</p>
-          <KapampanganButton onClick={() => handleOpenModal("Sisig")} />
+          <KapampanganButton onClick={() => handleOpenModal("Buro")} />
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
           <img
-            src="/menu/kapampangan/sisig.png"
-            alt="Leche Flan"
+            src="/menu/kapampangan/buro.png"
+            alt="Buro"
             className="h-36 w-40 rounded-full"
           />
-          <h2 className="text-lg font-bold mt-2">Sisig</h2>
+          <h2 className="text-lg font-bold mt-2">Buro</h2>
           <p className="text-sm text-gray-600 mb-4">A classic Filipino dish</p>
-          <KapampanganButton onClick={() => handleOpenModal("Sisig")} />
-        </div>
-        <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
-          <img
-            src="/menu/kapampangan/sisig.png"
-            alt="Leche Flan"
-            className="h-36 w-40 rounded-full"
-          />
-          <h2 className="text-lg font-bold mt-2">Sisig</h2>
-          <p className="text-sm text-gray-600 mb-4">A classic Filipino dish</p>
-          <KapampanganButton onClick={() => handleOpenModal("Sisig")} />
+          <KapampanganButton onClick={() => handleOpenModal("Buro")} />
         </div>
         {/* other menu items */}
         {showModal && (
