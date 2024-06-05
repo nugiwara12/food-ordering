@@ -6,11 +6,7 @@ const Kapampangan = () => {
   return (
     <>
       <NavbarOutside />
-      <div className="ml-4 hover:text-blue-700 transform">
-        <a href="/Home/Menu">
-          <BiArrowBack className="h-6 w-6" />
-        </a>
-      </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-4 aspect-auto">
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
           <img
