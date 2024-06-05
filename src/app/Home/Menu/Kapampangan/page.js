@@ -38,13 +38,13 @@ const Kapampangan = () => {
             alt="Sinigang"
             className="h-40 w-40"
           />
-          <h2 className="text-lg font-bold mt-2">Kaldereta</h2>
+          <h2 className="text-lg font-bold mt-2">Sinigang</h2>
           <p className="text-sm text-gray-600 mb-4">A classic Filipino dish</p>
-          <KapampanganButton onClick={() => handleOpenModal("Kaldereta")} />
+          <KapampanganButton onClick={() => handleOpenModal("Sinigang")} />
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
           <img
-            src="/menu/kapampangan/Kaldereta.png"
+            src="/menu/kapampangan/kaldereta.png"
             alt="kaldereta"
             className="h-36 w-40 rounded-full"
           />
@@ -68,9 +68,11 @@ const Kapampangan = () => {
             alt="Sinampalukang Manok"
             className="h-36 w-40 rounded-full"
           />
-          <h2 className="text-lg font-bold mt-2">Buro</h2>
+          <h2 className="text-lg font-bold mt-2">Sinam Palukang Manok</h2>
           <p className="text-sm text-gray-600 mb-4">A classic Filipino dish</p>
-          <KapampanganButton onClick={() => handleOpenModal("Buro")} />
+          <KapampanganButton
+            onClick={() => handleOpenModal("Sinampalukang Manok")}
+          />
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
           <img
