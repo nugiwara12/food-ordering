@@ -22,7 +22,7 @@ const Kapampangan = () => {
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
           <img
-            src="/menu/kapampangan/adobo.png"
+            src="/menu/kapampangan/sinigang.png"
             alt="Sinigang"
             className="h-40 w-40"
           />

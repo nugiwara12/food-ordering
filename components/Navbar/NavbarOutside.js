@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { IoCartOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
@@ -9,6 +9,20 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
 const NavbarOutside = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropDownMenu, setIsDropDownMenu] = useState(false);
+  const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDropDownMenu(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="bg-gray-800 p-4 mb-4">
@@ -54,7 +68,10 @@ const NavbarOutside = () => {
               )}
             </button>
             {isDropDownMenu && (
-              <div className="absolute top-12 left-3 bg-gray-200 rounded-lg p-4 w-40">
+              <div
+                ref={dropdownRef}
+                className="absolute top-12 left-3 bg-gray-200 rounded-lg p-4 w-40"
+              >
                 <ul>
                   <li className="mb-4">
                     <a
