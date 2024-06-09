@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import NavbarOutside from "../../../../../components/Navbar/NavbarOutside";
 import KapampanganModal from "../../../../../components/MenuModal/KapampanganModal";
 import KapampanganButton from "../../../../../components/Button/KapampanganButton";
+import Image from "next/image";
 
 const Kapampangan = () => {
   const [showModal, setShowModal] = useState(false);
@@ -23,7 +24,9 @@ const Kapampangan = () => {
       <NavbarOutside />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-4 aspect-auto">
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
-          <img
+          <Image
+            height={200}
+            width={200}
             src="/menu/kapampangan/adobo.png"
             alt="Adobo"
             className="h-40 w-40"
@@ -33,7 +36,9 @@ const Kapampangan = () => {
           <KapampanganButton onClick={() => handleOpenModal("Adobo")} />
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
-          <img
+          <Image
+            height={200}
+            width={200}
             src="/menu/kapampangan/sinigang.png"
             alt="Sinigang"
             className="h-40 w-40"
@@ -43,7 +48,9 @@ const Kapampangan = () => {
           <KapampanganButton onClick={() => handleOpenModal("Sinigang")} />
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
-          <img
+          <Image
+            height={200}
+            width={200}
             src="/menu/kapampangan/kaldereta.png"
             alt="kaldereta"
             className="h-36 w-40 rounded-full"
@@ -53,7 +60,9 @@ const Kapampangan = () => {
           <KapampanganButton onClick={() => handleOpenModal("Kaldereta")} />
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
-          <img
+          <Image
+            height={200}
+            width={200}
             src="/menu/kapampangan/sisig.png"
             alt="Sisig"
             className="h-36 w-40 rounded-full"
@@ -63,7 +72,9 @@ const Kapampangan = () => {
           <KapampanganButton onClick={() => handleOpenModal("Sisig")} />
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
-          <img
+          <Image
+            height={200}
+            width={200}
             src="/menu/kapampangan/sinampalukan.png"
             alt="Sinampalukang Manok"
             className="h-36 w-40 rounded-full"
@@ -75,7 +86,9 @@ const Kapampangan = () => {
           />
         </div>
         <div className="flex flex-col justify-center items-center bg-gray-200 transition-colors duration-300 ease-in-out hover:bg-white shadow-lg hover:shadow-lg p-4">
-          <img
+          <Image
+            height={200}
+            width={200}
             src="/menu/kapampangan/buro.png"
             alt="Buro"
             className="h-36 w-40 rounded-full"
