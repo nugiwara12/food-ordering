@@ -74,8 +74,9 @@ const Homestead = () => {
                     Mobile App Integration
                   </p>
                   <p className="text-sm font-normal text-wrap px-4 mt-2 text-gray-300">
-                    Integration with local restaurants and food vendors for
-                    seamless online ordering and delivery services.
+                    Seamless integration with a mobile app for on-the-go access
+                    to recipes, restaurant recommendations, and food-related
+                    content.
                   </p>
                 </div>
               </div>
@@ -92,8 +93,9 @@ const Homestead = () => {
                     Easy Browsing
                   </p>
                   <p className="text-sm font-normal text-wrap px-4 mt-2 text-gray-300">
-                    Integration with local restaurants and food vendors for
-                    seamless online ordering and delivery services.
+                    Intuitive navigation allowing users to easily browse through
+                    various categories like cuisine type, dietary preferences,
+                    and meal types.
                   </p>
                 </div>
               </div>
@@ -110,8 +112,10 @@ const Homestead = () => {
                     Web Development Integration
                   </p>
                   <p className="text-sm font-normal text-wrap px-4 mt-2 text-gray-300">
-                    Integration with local restaurants and food vendors for
-                    seamless online ordering and delivery services.
+                    Using tools, technologies, and computer languages to
+                    integrate features such as online ordering, tailored
+                    suggestions, and interactive interfaces improves a websites
+                    functionality and user experience.
                   </p>
                 </div>
               </div>
