@@ -31,9 +31,9 @@ const Offering = () => {
             treats.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Offer cards go here */}
-            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
-              <p className="card-title text-lg font-semibold mb-2">
+            {/* Offer offers go here */}
+            <div className="offer bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="offer-title text-lg font-semibold mb-2">
                 Customer Support
               </p>
               <p className="small-desc text-gray-600 mb-4">
@@ -50,8 +50,8 @@ const Offering = () => {
                 <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
-              <p className="card-title text-lg font-semibold mb-2">
+            <div className="offer bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="offer-title text-lg font-semibold mb-2">
                 Delivery Options
               </p>
               <p className="small-desc text-gray-600 mb-4">
@@ -68,8 +68,8 @@ const Offering = () => {
                 <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
-              <p className="card-title text-lg font-semibold mb-2">
+            <div className="offer bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="offer-title text-lg font-semibold mb-2">
                 Special Offer
               </p>
               <p className="small-desc text-gray-600 mb-4">
@@ -86,8 +86,8 @@ const Offering = () => {
                 <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
-              <p className="card-title text-lg font-semibold mb-2">
+            <div className="offer bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="offer-title text-lg font-semibold mb-2">
                 Percentage Discounts
               </p>
               <p className="small-desc text-gray-600 mb-4">
@@ -104,8 +104,8 @@ const Offering = () => {
                 <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
-              <p className="card-title text-lg font-semibold mb-2">
+            <div className="offer bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="offer-title text-lg font-semibold mb-2">
                 Fixed Amount Discounts
               </p>
               <p className="small-desc text-gray-600 mb-4">
@@ -122,8 +122,8 @@ const Offering = () => {
                 <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
-              <p className="card-title text-lg font-semibold mb-2">
+            <div className="offer bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="offer-title text-lg font-semibold mb-2">
                 Exclusive Local Deals
               </p>
               <p className="small-desc text-gray-600 mb-4">
@@ -140,8 +140,8 @@ const Offering = () => {
                 <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
-              <p className="card-title text-lg font-semibold mb-2">
+            <div className="offer bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="offer-title text-lg font-semibold mb-2">
                 Free Delivery
               </p>
               <p className="small-desc text-gray-600 mb-4">
@@ -158,8 +158,8 @@ const Offering = () => {
                 <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
-              <p className="card-title text-lg font-semibold mb-2">
+            <div className="offer bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="offer-title text-lg font-semibold mb-2">
                 Meal Deals
               </p>
               <p className="small-desc text-gray-600 mb-4">
