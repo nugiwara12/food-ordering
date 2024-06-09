@@ -1,6 +1,7 @@
 import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { IoCartOutline } from "react-icons/io5";
 
 const KapampanganModal = ({ isVisible, onClose }) => {
   if (!isVisible) return null;
@@ -122,13 +123,16 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                   <p className="mb-1 text-lg font-bold">₱140.000</p>
                 </div>
               </div>
+
               <div className="flex justify-center items-center ">
-                <button
-                  className="mt-6 w-48 rounded-md bg-yellow-600 py-1.5 font-medium text-blue-50 hover:bg-yellow-700"
-                  onClick={handleCheckout}
-                >
-                  Check out
-                </button>
+                <div data-tooltip="Price: ₱140" className="button">
+                  <div className="button-wrapper" onClick={handleCheckout}>
+                    <button className="bg-yellow-600 text">Buy Now</button>
+                    <button className="bg-yellow-700 icon">
+                      <IoCartOutline />
+                    </button>
+                  </div>
+                </div>
               </div>
               <div className="flex justify-center items-center ">
                 <button
