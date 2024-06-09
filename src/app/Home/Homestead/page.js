@@ -42,29 +42,29 @@ const Homestead = () => {
                 Explore the amazing features we offer
               </p>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="e-card playing flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center w-full h-full">
-                  <MdOnlinePrediction className="h-60 w-60" />
+                  <MdOnlinePrediction className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
                 {/* Other content */}
               </div>
 
               <div className="e-card playing flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center w-full h-full">
-                  <CiMobile3 className="h-60 w-60" />
+                  <CiMobile3 className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
                 {/* Other content */}
               </div>
               <div className="e-card playing flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center w-full h-full">
-                  <SiFirefoxbrowser className="h-60 w-60" />
+                  <SiFirefoxbrowser className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
                 {/* Other content */}
               </div>
               <div className="e-card playing flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center w-full h-full">
-                  <FaGlobe className="h-60 w-60" />
+                  <FaGlobe className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
                 {/* Other content */}
               </div>
