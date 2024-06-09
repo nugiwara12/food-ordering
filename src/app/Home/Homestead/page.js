@@ -112,7 +112,7 @@ const Homestead = () => {
               <p className="text-sm font-normal text-wrap px-4 mt-2 text-gray-300">
                 Using tools, technologies, and computer languages to integrate
                 features such as online ordering, tailored suggestions, and
-                interactive interfaces improves a website's functionality and
+                interactive interfaces improves a websites functionality and
                 user experience.
               </p>
             </div>
