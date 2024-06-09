@@ -155,4 +155,9 @@
   max-width: 150px;
 }
 
-/* FORM SUBSSCRIBE */
+/* hr ELMENTS */
+.hr-white {
+  border: none;
+  border-top: 2.5px solid white;
+  margin: 1rem 0;
+}

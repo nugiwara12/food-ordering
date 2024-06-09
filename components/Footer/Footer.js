@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
@@ -5,11 +6,12 @@ import { IoLogoLinkedin } from "react-icons/io5";
 const Footer = () => {
   return (
     <footer className="w-full py-6 md:py-10 px-4 md:px-8 lg:px-20">
+      <hr className="hr-white" />
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className="flex flex-col items-center md:items-start">
           {" "}
           {/* Adjusted alignment */}
-          <img
+          <Image
             src="/logo/foodhub.png"
             alt="logo"
             width={150}

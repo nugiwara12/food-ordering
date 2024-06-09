@@ -8,6 +8,11 @@ const Offering = () => {
           <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">
             Special Offers
           </h1>
+          <p className="text-center text-lg md:text-2xl mb-6 break-words">
+            To satisfy your appetites, FoodHub provides scrumptious, freshly
+            prepared dishes. A favorite for delicious food that combines
+            tradition and flavor, making you fall in love with every bite.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Offer cards go here */}
             <div className="bg-white p-6 rounded-lg shadow-md">
