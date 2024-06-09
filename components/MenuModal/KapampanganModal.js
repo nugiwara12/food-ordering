@@ -1,4 +1,6 @@
 import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const KapampanganModal = ({ isVisible, onClose }) => {
   if (!isVisible) return null;
@@ -8,6 +10,20 @@ const KapampanganModal = ({ isVisible, onClose }) => {
       onClose();
     }
   };
+
+  const handleCheckout = () => {
+    // Trigger the success toast
+    toast.success("Checkout successful! Thank you for your order.", {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
+  };
+
   return (
     <div
       className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center"
@@ -19,18 +35,22 @@ const KapampanganModal = ({ isVisible, onClose }) => {
           <div className="mx-auto max-w-5xl justify-center px-6 md:flex md:space-x-6 xl:px-0">
             <div className="rounded-lg md:w-2/3 lg:w-3/4 xl:w-4/5">
               {/* Cart item 1 */}
-              <div class="flex flex-col items-center justify-center mb-6 rounded-lg bg-white p-6 shadow-md sm:flex sm:justify-start">
+              <div className="flex flex-col items-center justify-center mb-6 rounded-lg bg-white p-6 shadow-md sm:flex sm:justify-start">
                 <h1 className="mb-4 text-center text-2xl font-bold md:text-3xl lg:text-4xl pt-4">
                   Order Items
                 </h1>
-                <div class="flex justify-center items-center w-20 h-20 mb-4">
-                  <img src="/logo/foodhub.png" alt="Image" class="md:m-auto" />
+                <div className="flex justify-center items-center w-20 h-20 mb-4">
+                  <img
+                    src="/logo/foodhub.png"
+                    alt="Image"
+                    className="md:m-auto"
+                  />
                 </div>
-                <div class="grid grid-cols-2 gap-2 md:grid-cols-1 lg:grid-cols-2 w-full">
-                  <div class="col-span-2">
+                <div className="grid grid-cols-2 gap-2 md:grid-cols-1 lg:grid-cols-2 w-full">
+                  <div className="col-span-2">
                     <label
-                      for="name"
-                      class="block mb-2 text-sm font-medium text-gray-900"
+                      htmlFor="name"
+                      className="block mb-2 text-sm font-medium text-gray-900"
                     >
                       Name
                     </label>
@@ -38,13 +58,13 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                       type="text"
                       id="name"
                       placeholder="Enter your name"
-                      class="w-full h-10 px-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-transparent"
+                      className="w-full h-10 px-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-transparent"
                     />
                   </div>
-                  <div class="col-span-2">
+                  <div className="col-span-2">
                     <label
-                      for="location"
-                      class="block mb-2 text-sm font-medium text-gray-900"
+                      htmlFor="location"
+                      className="block mb-2 text-sm font-medium text-gray-900"
                     >
                       Location
                     </label>
@@ -52,13 +72,13 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                       type="text"
                       id="location"
                       placeholder="Enter your location"
-                      class="w-full h-10 px-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-transparent"
+                      className="w-full h-10 px-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-transparent"
                     />
                   </div>
                   <div>
                     <label
-                      for="food-name"
-                      class="block mb-2 text-sm font-medium text-gray-900"
+                      htmlFor="food-name"
+                      className="block mb-2 text-sm font-medium text-gray-900"
                     >
                       Food Name
                     </label>
@@ -66,13 +86,13 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                       type="text"
                       id="food-name"
                       placeholder="Enter food name"
-                      class="w-full h-10 px-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-transparent"
+                      className="w-full h-10 px-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-transparent"
                     />
                   </div>
                   <div>
                     <label
-                      for="food-quantity"
-                      class="block mb-2 text-sm font-medium text-gray-900"
+                      htmlFor="food-quantity"
+                      className="block mb-2 text-sm font-medium text-gray-900"
                     >
                       Food Quantity
                     </label>
@@ -80,7 +100,7 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                       type="number"
                       id="food-quantity"
                       placeholder="Enter food quantity"
-                      class="w-full h-10 px-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-transparent"
+                      className="w-full h-10 px-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-600 focus:border-transparent"
                     />
                   </div>
                 </div>
@@ -103,7 +123,10 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                 </div>
               </div>
               <div className="flex justify-center items-center ">
-                <button className="mt-6 w-48 rounded-md bg-yellow-600 py-1.5 font-medium text-blue-50 hover:bg-yellow-700">
+                <button
+                  className="mt-6 w-48 rounded-md bg-yellow-600 py-1.5 font-medium text-blue-50 hover:bg-yellow-700"
+                  onClick={handleCheckout}
+                >
                   Check out
                 </button>
               </div>
@@ -119,6 +142,7 @@ const KapampanganModal = ({ isVisible, onClose }) => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </div>
   );
 };
