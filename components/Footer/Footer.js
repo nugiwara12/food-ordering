@@ -4,10 +4,7 @@ import { IoLogoLinkedin } from "react-icons/io5";
 
 const Footer = () => {
   return (
-    <footer
-      className="w-full py-6 md:py-10 mt-24 md:mt-32 px-4 md:px-8 lg:px-20 bg-center"
-      style={{ backgroundImage: 'url("/logo/background.jpg")' }}
-    >
+    <footer className="w-full py-6 md:py-10 px-4 md:px-8 lg:px-20">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div className="flex flex-col items-center md:items-start">
           {" "}
@@ -42,21 +39,21 @@ const Footer = () => {
             <li className="mb-2 md:mb-4">
               {" "}
               {/* Adjusted spacing */}
-              <a href="#" className="font-normal hover:underline">
+              <a href="/" className="font-normal hover:underline">
                 Home
               </a>
             </li>
             <li className="mb-2 md:mb-4">
               {" "}
               {/* Adjusted spacing */}
-              <a href="#" className="font-normal hover:underline">
-                Service
+              <a href="/Home/Menu" className="font-normal hover:underline">
+                Menu
               </a>
             </li>
             <li className="mb-2 md:mb-4">
               {" "}
               {/* Adjusted spacing */}
-              <a href="#" className="font-normal hover:underline">
+              <a href="/Home/About" className="font-normal hover:underline">
                 About Us
               </a>
             </li>
@@ -86,9 +83,7 @@ const Footer = () => {
               {" "}
               {/* Adjusted spacing */}
               <p className="font-normal hover:underline">
-                Unit No. 204, 2nd Floor KACC Philmade Building, Lot 1 & 2 corner
-                Jose Abad Santos Avenue and E. Quirino st., Clark Freeport Zone,
-                Philippines
+                Dalore, Mabalacat City College pampanga.
               </p>
             </li>
           </ul>
