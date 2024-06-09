@@ -2,7 +2,6 @@ import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { IoCartOutline } from "react-icons/io5";
-import Image from "next/image";
 
 const KapampanganModal = ({ isVisible, onClose }) => {
   if (!isVisible) return null;
@@ -41,15 +40,7 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                 <h1 className="mb-4 text-center text-2xl font-bold md:text-3xl lg:text-4xl pt-4">
                   Order Items
                 </h1>
-                <div className="flex justify-center items-center w-20 h-20 mb-4">
-                  <Image
-                    width={150}
-                    height={150}
-                    src="/logo/foodhub.png"
-                    alt="Image"
-                    className="md:m-auto"
-                  />
-                </div>
+
                 <div className="grid grid-cols-2 gap-2 md:grid-cols-1 lg:grid-cols-2 w-full">
                   <div className="col-span-2">
                     <label
@@ -128,15 +119,14 @@ const KapampanganModal = ({ isVisible, onClose }) => {
               </div>
 
               <div className="flex justify-center items-center ">
-                <div data-tooltip="Price: ₱140" className="button">
-                  <div className="button-wrapper" onClick={handleCheckout}>
-                    <button className="bg-yellow-600 text">Buy Now</button>
-                    <button className="bg-yellow-700 icon">
-                      <IoCartOutline />
-                    </button>
-                  </div>
-                </div>
+                <button
+                  className="mt-6 w-28 rounded-md bg-yellow-600 py-1.5 font-medium text-blue-50 hover:bg-yellow-700"
+                  onClick={handleCheckout}
+                >
+                  Check Out
+                </button>
               </div>
+
               <div className="flex justify-center items-center ">
                 <button
                   className="mt-6 w-48 rounded-md bg-yellow-600 py-1.5 font-medium text-blue-50 hover:bg-yellow-700"
