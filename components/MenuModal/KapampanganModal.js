@@ -2,6 +2,7 @@ import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { IoCartOutline } from "react-icons/io5";
+import Image from "next/image";
 
 const KapampanganModal = ({ isVisible, onClose }) => {
   if (!isVisible) return null;
@@ -41,7 +42,9 @@ const KapampanganModal = ({ isVisible, onClose }) => {
                   Order Items
                 </h1>
                 <div className="flex justify-center items-center w-20 h-20 mb-4">
-                  <img
+                  <Image
+                    width={150}
+                    height={150}
                     src="/logo/foodhub.png"
                     alt="Image"
                     className="md:m-auto"
