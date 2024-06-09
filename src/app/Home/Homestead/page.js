@@ -10,7 +10,7 @@ const Homestead = () => {
       <div className="bg-gray-900 min-h-screen">
         <section
           className="bg-cover bg-center h-screen"
-          style={{ backgroundImage: 'url("logo/background.jpg")' }}
+          style={{ backgroundImage: 'url("/logo/background.jpg")' }}
         >
           <div className="container mx-auto px-4 h-full flex items-center justify-center">
             <div className="text-center text-white max-w-prose">
@@ -33,7 +33,10 @@ const Homestead = () => {
         </section>
 
         {/* Features Section */}
-        <section className="py-8 bg-gray-200">
+        <section
+          className="py-8 bg-gray-200 bg-cover bg-no-repeat"
+          style={{ backgroundImage: 'url("/background/black.png")' }}
+        >
           <div className="container mx-auto px-4">
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold">Our Features</h2>
@@ -43,7 +46,7 @@ const Homestead = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
               <div className="card playing flex flex-col justify-center items-center">
-                <div className="flex justify-center items-center w-full h-full">
+                <div className="flex justify-center items-center w-full h-full bg-white">
                   <MdOnlinePrediction className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
                 <div className="image"></div>
@@ -62,7 +65,7 @@ const Homestead = () => {
               </div>
 
               <div className="card playing flex flex-col justify-center items-center">
-                <div className="flex justify-center items-center w-full h-full">
+                <div className="flex justify-center items-center w-full h-full bg-white">
                   <CiMobile3 className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
                 <div className="image"></div>
@@ -81,7 +84,7 @@ const Homestead = () => {
                 </div>
               </div>
               <div className="card playing flex flex-col justify-center items-center">
-                <div className="flex justify-center items-center w-full h-full">
+                <div className="flex justify-center items-center w-full h-full bg-white">
                   <SiFirefoxbrowser className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
                 <div className="image"></div>
@@ -100,7 +103,7 @@ const Homestead = () => {
                 </div>
               </div>
               <div className="card playing flex flex-col justify-center items-center">
-                <div className="flex justify-center items-center w-full h-full">
+                <div className="flex justify-center items-center w-full h-full bg-white">
                   <FaGlobe className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
                 <div className="image"></div>
