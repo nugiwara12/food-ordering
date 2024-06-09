@@ -27,7 +27,7 @@ body {
 }
 
 /* Features Card for Home */
-.e-card {
+.card {
   margin: 100px auto;
   background: transparent;
   box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
