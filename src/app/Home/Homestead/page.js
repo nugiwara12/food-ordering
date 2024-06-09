@@ -19,7 +19,7 @@ const Homestead = () => {
               </h1>
               <p className="text-lg md:text-2xl mb-6 break-words">
                 To satisfy your appetites, FoodHub provides scrumptious, freshly
-                prepared dishes. It's a favorite for delicious food that
+                prepared dishes. It&apos;s a favorite for delicious food that
                 combines tradition and flavor, making you fall in love with
                 every bite.
               </p>
