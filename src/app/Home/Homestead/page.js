@@ -65,19 +65,59 @@ const Homestead = () => {
                 <div className="flex justify-center items-center w-full h-full">
                   <CiMobile3 className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
-                {/* Other content */}
+                <div className="image"></div>
+                <div className="wave"></div>
+                <div className="wave"></div>
+                <div className="wave"></div>
+                <div className="mt-6 text-center text-lg font-semibold absolute top-20 left-0 right-0 infotop">
+                  <p className="text-sm font-semibold text-gray-200">
+                    Mobile App Integration
+                  </p>
+                  <p className="text-sm font-normal text-wrap px-4 mt-2 text-gray-300">
+                    Seamless integration with a mobile app for on-the-go access
+                    to recipes, restaurant recommendations, and food-related
+                    content.
+                  </p>
+                </div>
               </div>
               <div className="card playing flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center w-full h-full">
                   <SiFirefoxbrowser className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
-                {/* Other content */}
+                <div className="image"></div>
+                <div className="wave"></div>
+                <div className="wave"></div>
+                <div className="wave"></div>
+                <div className="mt-6 text-center text-lg font-semibold absolute top-20 left-0 right-0 infotop">
+                  <p className="text-sm font-semibold text-gray-200">
+                    Easy Browsing
+                  </p>
+                  <p className="text-sm font-normal text-wrap px-4 mt-2 text-gray-300">
+                    Intuitive navigation allowing users to easily browse through
+                    various categories like cuisine type, dietary preferences,
+                    and meal types.
+                  </p>
+                </div>
               </div>
               <div className="card playing flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center w-full h-full">
                   <FaGlobe className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
-                {/* Other content */}
+                <div className="image"></div>
+                <div className="wave"></div>
+                <div className="wave"></div>
+                <div className="wave"></div>
+                <div className="mt-6 text-center text-lg font-semibold absolute top-20 left-0 right-0 infotop">
+                  <p className="text-sm font-semibold text-gray-200">
+                    Web Development Integration
+                  </p>
+                  <p className="text-sm font-normal text-wrap px-4 mt-2 text-gray-300">
+                    Using tools, technologies, and computer languages to
+                    integrate features such as online ordering, tailored
+                    suggestions, and interactive interfaces improves a website's
+                    functionality and user experience.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
