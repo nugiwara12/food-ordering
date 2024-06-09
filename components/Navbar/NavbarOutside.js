@@ -115,21 +115,18 @@ const Navbar = () => {
                 <div className="absolute right-0 mt-2 w-32 bg-white border border-gray-200 rounded-md shadow-lg py-1 z-20">
                   <a
                     href="/Home/Menu/Kapampangan"
-                    target="_blank"
                     className="block px-4 py-2 text-sm text-gray-800 font-semibold hover:bg-yellow-600 hover:text-white"
                   >
                     Kapampangan
                   </a>
                   <a
                     href="/Home/Menu/Tagalog"
-                    target="_blank"
                     className="block px-4 py-2 text-sm text-gray-800 font-semibold hover:bg-yellow-600 hover:text-white"
                   >
                     Tagalog
                   </a>
                   <a
                     href="#"
-                    target="_blank"
                     className="block px-4 py-2 text-sm text-gray-800 font-semibold hover:bg-yellow-600 hover:text-white"
                   >
                     Ilocano
@@ -138,7 +135,7 @@ const Navbar = () => {
               )}
             </div>
             <a
-              href="/about"
+              href="/Home/About"
               className="text-base font-semibold px-4 cursor-pointer hover:font-bold hover:text-yellow-700 text-white transition-colors duration-300"
             >
               About
@@ -253,7 +250,7 @@ const Navbar = () => {
                 )}
               </div>
               <a
-                href="/about"
+                href="/Home/About"
                 className="px-4 text-white hover:bg-yellow-700 hover:text-white p-4 w-full font-normal text-center transition-colors duration-200"
               >
                 About
