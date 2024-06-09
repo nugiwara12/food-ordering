@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import React, { useState, useEffect, useRef } from "react";
-import { IoCartOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
 
@@ -38,12 +37,13 @@ const NavbarOutside = () => {
             >
               <GiHamburgerMenu />
             </button>
-            <a href="/" className="text-white text-2xl font-bold ml-2">
+            <a href="/" className="text-white text-2xl font-bold ml-2 mx-auto">
               <Image
                 src="/logo/foodhub.png"
                 alt="logo"
                 width={40}
                 height={40}
+                className=""
               />
             </a>
           </div>
@@ -66,7 +66,6 @@ const NavbarOutside = () => {
             </a>
             <div className="relative">
               <button
-                href="/Home/Menu"
                 className="flex items-center text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 activeClassName="text-white bg-gray-900"
                 onClick={() => setIsDropDownMenu((prev) => !prev)}
@@ -111,28 +110,21 @@ const NavbarOutside = () => {
               )}
             </div>
           </div>
-          <div className="flex items-center">
-            <div
+          <div className="flex justify-center items-center">
+            <a
               href="/login"
               className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               activeClassName="text-white bg-gray-900"
             >
               Login
-            </div>
-            <div
+            </a>
+            <a
               href="/register"
               className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
               activeClassName="text-white bg-gray-900"
             >
               Register
-            </div>
-            <div
-              href="/cart"
-              className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-              activeClassName="text-white bg-gray-900"
-            >
-              <IoCartOutline size="1.5em" />
-            </div>
+            </a>
           </div>
         </div>
       </section>
