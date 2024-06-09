@@ -26,144 +26,154 @@ const Offering = () => {
             Special Offers
           </h1>
           <p className="text-center text-lg md:text-2xl mb-6 break-words">
-            To satisfy your appetites, FoodHub provides scrumptious, freshly
-            prepared dishes. A favorite for delicious food that combines
-            tradition and flavor, making you fall in love with every bite.
+            Special discounts, limited-time offers, and exclusive deals are
+            available for food lovers, offering big savings and delicious
+            treats.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Offer cards go here */}
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold mb-2 text-black">
+            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="card-title text-lg font-semibold mb-2">
                 Customer Support
-              </h2>
-              <p className="text-gray-600 mb-4">
+              </p>
+              <p className="small-desc text-gray-600 mb-4">
                 Responsive customer support to address inquiries, complaints, or
                 special requests.
               </p>
-              <div className="flex items-center justify-between">
-                <button
-                  className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
-                  onClick={handleGetOffer}
-                >
-                  Get Offer
-                </button>
+              <button
+                className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 right-0 m-4"
+                onClick={handleGetOffer}
+              >
+                Get Offer
+              </button>
+              <div className="go-corner absolute top-0 right-0 bg-yellow-600 text-white p-2">
+                <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold mb-2 text-black">
+            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="card-title text-lg font-semibold mb-2">
                 Delivery Options
-              </h2>
-              <p className="text-gray-600 mb-4">
+              </p>
+              <p className="small-desc text-gray-600 mb-4">
                 Flexible delivery options including scheduled delivery, express
                 delivery, or pickup.
               </p>
-              <div className="flex items-center justify-between">
-                <button
-                  className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
-                  onClick={handleGetOffer}
-                >
-                  Get Offer
-                </button>
+              <button
+                className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 right-0 m-4"
+                onClick={handleGetOffer}
+              >
+                Get Offer
+              </button>
+              <div className="go-corner absolute top-0 right-0 bg-yellow-600 text-white p-2">
+                <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold mb-2 text-black">
+            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="card-title text-lg font-semibold mb-2">
                 Special Offer
-              </h2>
-              <p className="text-gray-600 mb-4">
+              </p>
+              <p className="small-desc text-gray-600 mb-4">
                 Discounts, promotions, and special deals on selected items or
                 orders.
               </p>
-              <div className="flex items-center justify-between">
-                <button
-                  className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
-                  onClick={handleGetOffer}
-                >
-                  Get Offer
-                </button>
+              <button
+                className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 right-0 m-4"
+                onClick={handleGetOffer}
+              >
+                Get Offer
+              </button>
+              <div className="go-corner absolute top-0 right-0 bg-yellow-600 text-white p-2">
+                <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold mb-2 text-black">
+            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="card-title text-lg font-semibold mb-2">
                 Percentage Discounts
-              </h2>
-              <p className="text-gray-600 mb-4">
+              </p>
+              <p className="small-desc text-gray-600 mb-4">
                 Foodhub provides discounts ranging from 10% to 30% on selected
                 orders, varying by restaurant and location.
               </p>
-              <div className="flex items-center justify-between">
-                <button
-                  className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
-                  onClick={handleGetOffer}
-                >
-                  Get Offer
-                </button>
+              <button
+                className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 right-0 m-4"
+                onClick={handleGetOffer}
+              >
+                Get Offer
+              </button>
+              <div className="go-corner absolute top-0 right-0 bg-yellow-600 text-white p-2">
+                <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold mb-2 text-black">
+            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="card-title text-lg font-semibold mb-2">
                 Fixed Amount Discounts
-              </h2>
-              <p className="text-gray-600 mb-4">
+              </p>
+              <p className="small-desc text-gray-600 mb-4">
                 Customers can avail vouchers for specific savings, like ₱130 off
                 orders over ₱120 or ₱150 off takeaway.
               </p>
-              <div className="flex items-center justify-between">
-                <button
-                  className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
-                  onClick={handleGetOffer}
-                >
-                  Get Offer
-                </button>
+              <button
+                className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 right-0 m-4"
+                onClick={handleGetOffer}
+              >
+                Get Offer
+              </button>
+              <div className="go-corner absolute top-0 right-0 bg-yellow-600 text-white p-2">
+                <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold mb-2 text-black">
+            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="card-title text-lg font-semibold mb-2">
                 Exclusive Local Deals
-              </h2>
-              <p className="text-gray-600 mb-4">
+              </p>
+              <p className="small-desc text-gray-600 mb-4">
                 Pre-ordering from selected restaurants in Food-Hub areas can
                 save up to 25%, with some areas offering up to 30% off.
               </p>
-              <div className="flex items-center justify-between">
-                <button
-                  className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
-                  onClick={handleGetOffer}
-                >
-                  Get Offer
-                </button>
+              <button
+                className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 right-0 m-4"
+                onClick={handleGetOffer}
+              >
+                Get Offer
+              </button>
+              <div className="go-corner absolute top-0 right-0 bg-yellow-600 text-white p-2">
+                <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold mb-2 text-black">
+            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="card-title text-lg font-semibold mb-2">
                 Free Delivery
-              </h2>
-              <p className="text-gray-600 mb-4">
+              </p>
+              <p className="small-desc text-gray-600 mb-4">
                 Order from participating restaurants and enjoy free delivery on
                 your meal.
               </p>
-              <div className="flex items-center justify-between">
-                <button
-                  className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
-                  onClick={handleGetOffer}
-                >
-                  Get Offer
-                </button>
+              <button
+                className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 right-0 m-4"
+                onClick={handleGetOffer}
+              >
+                Get Offer
+              </button>
+              <div className="go-corner absolute top-0 right-0 bg-yellow-600 text-white p-2">
+                <div className="go-arrow">→</div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <h2 className="text-xl font-bold mb-2 text-black">Meal Deals</h2>
-              <p className="text-gray-600 mb-4">
+            <div className="card bg-white shadow-md rounded-lg overflow-hidden relative">
+              <p className="card-title text-lg font-semibold mb-2">
+                Meal Deals
+              </p>
+              <p className="small-desc text-gray-600 mb-4">
                 Get a complete meal at a discounted price, including an entree,
                 side, and drink.
               </p>
-              <div className="flex items-center justify-between">
-                <button
-                  className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
-                  onClick={handleGetOffer}
-                >
-                  Get Offer
-                </button>
+              <button
+                className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded absolute bottom-0 right-0 m-4"
+                onClick={handleGetOffer}
+              >
+                Get Offer
+              </button>
+              <div className="go-corner absolute top-0 right-0 bg-yellow-600 text-white p-2">
+                <div className="go-arrow">→</div>
               </div>
             </div>
             {/* Repeat for other offers */}
