@@ -144,7 +144,7 @@ const Navbar = () => {
         </div>
         <div className="lg:flex justify-end text-end hidden">
           <a
-            href="/contact"
+            href="/Home/Contact"
             className="text-sm text-white font-normal px-6 py-2 rounded bg-yellow-600 hover:bg-yellow-700 cursor-pointer transition-colors duration-300"
           >
             Contact Us
