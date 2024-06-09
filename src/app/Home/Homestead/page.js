@@ -19,9 +19,8 @@ const Homestead = () => {
               </h1>
               <p className="text-lg md:text-2xl mb-6 break-words">
                 To satisfy your appetites, FoodHub provides scrumptious, freshly
-                prepared dishes. It&apos;s a favorite for delicious food that
-                combines tradition and flavor, making you fall in love with
-                every bite.
+                prepared dishes. A favorite for delicious food that combines
+                tradition and flavor, making you fall in love with every bite.
               </p>
               <a
                 href="#"
@@ -43,26 +42,38 @@ const Homestead = () => {
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="e-card playing flex flex-col justify-center items-center">
+              <div className="card playing flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center w-full h-full">
                   <MdOnlinePrediction className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
-                {/* Other content */}
+                <div className="image"></div>
+                <div className="wave"></div>
+                <div className="wave"></div>
+                <div className="wave"></div>
+                <div className="mt-6 text-center text-lg font-semibold absolute top-20 left-0 right-0 infotop">
+                  <p className="text-sm font-semibold text-gray-200">
+                    Online Ordering
+                  </p>
+                  <p className="text-sm font-normal text-wrap px-4 mt-2 text-gray-300">
+                    Integration with local restaurants and food vendors for
+                    seamless online ordering and delivery services.
+                  </p>
+                </div>
               </div>
 
-              <div className="e-card playing flex flex-col justify-center items-center">
+              <div className="card playing flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center w-full h-full">
                   <CiMobile3 className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
                 {/* Other content */}
               </div>
-              <div className="e-card playing flex flex-col justify-center items-center">
+              <div className="card playing flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center w-full h-full">
                   <SiFirefoxbrowser className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
                 {/* Other content */}
               </div>
-              <div className="e-card playing flex flex-col justify-center items-center">
+              <div className="card playing flex flex-col justify-center items-center">
                 <div className="flex justify-center items-center w-full h-full">
                   <FaGlobe className="h-20 md:h-32 lg:h-60 w-20 md:w-32 lg:w-60" />
                 </div>
