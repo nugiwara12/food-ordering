@@ -44,10 +44,9 @@ const Footer = () => {
         <div className="py-4">
           <div className="text-white py-4">
             <p>
-              "Lorem ipsum" is a placeholder text commonly used in the graphic
-              design, publishing, and web development industries. It's used to
-              fill spaces in a layout to simulate the appearance of real text
-              without distracting the viewer with meaningful content.
+              The FoodHub app provides convenient ordering, real-time tracking,
+              and easy discovery of new eateries on Google Play and the App
+              Store.
             </p>
           </div>
           <div className="flex justify-center items-center w-full mx-auto">
@@ -87,36 +86,34 @@ const Footer = () => {
             </a>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3">
-            <div className="">
-              <div className="flex justify-center md:justify-start text-white py-4">
-                <a href="#">
-                  <Image
-                    height={50}
-                    width={100}
-                    src="/footer/grabfood.png"
-                    alt="Logo"
-                    className="mr-2 border border-yellow-600 h-20 bg-gray-200 hover:bg-gray-100 rounded-lg p-2"
-                  />
-                </a>
-                <a href="#">
-                  <Image
-                    height={50}
-                    width={100}
-                    src="/footer/foodpanda.png"
-                    alt="Logo"
-                    className="mr-2 border border-yellow-600 h-20 bg-gray-200 hover:bg-gray-100 rounded-lg p-4"
-                  />
-                </a>
-                <a href="#">
-                  <Image
-                    height={50}
-                    width={100}
-                    src="/footer/inasal.png"
-                    alt="Logo"
-                    className="mr-2 border border-yellow-600 h-20 bg-gray-200 hover:bg-gray-100 rounded-lg p-4"
-                  />
-                </a>
-              </div>
+            <div className="flex justify-center md:justify-start text-white py-4">
+              <a href="#">
+                <Image
+                  height={50}
+                  width={100}
+                  src="/footer/grabfood.png"
+                  alt="Logo"
+                  className="mr-2 border border-yellow-600 h-20 bg-gray-200 hover:bg-gray-100 rounded-lg p-2"
+                />
+              </a>
+              <a href="#">
+                <Image
+                  height={50}
+                  width={100}
+                  src="/footer/foodpanda.png"
+                  alt="Logo"
+                  className="mr-2 border border-yellow-600 h-20 bg-gray-200 hover:bg-gray-100 rounded-lg p-4"
+                />
+              </a>
+              <a href="#">
+                <Image
+                  height={50}
+                  width={100}
+                  src="/footer/inasal.png"
+                  alt="Logo"
+                  className="mr-2 border border-yellow-600 h-20 bg-gray-200 hover:bg-gray-100 rounded-lg p-4"
+                />
+              </a>
             </div>
             <div class="w-full h-fullbg-pink-500">
               <Image
