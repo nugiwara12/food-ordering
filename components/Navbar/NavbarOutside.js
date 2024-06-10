@@ -257,7 +257,7 @@ const Navbar = () => {
               </a>
             </div>
             <a
-              href="/contact"
+              href="/Home/Contact"
               className="px-6 py-2 text-white bg-yellow-600 hover:bg-yellow-700 rounded cursor-pointer transition-colors duration-300"
             >
               Contact Us
