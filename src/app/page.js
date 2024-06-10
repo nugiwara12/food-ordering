@@ -3,6 +3,7 @@ import NavbarOutside from "../../components/Navbar/NavbarOutside";
 import Homestead from "./Home/Homestead/page";
 import Offering from "./Home/Homestead/Offering";
 import Footer from "../../components/Footer/Footer";
+import CarouselPage from "./Home/Homestead/CarouselPage";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <NavbarOutside />
       <Homestead />
       <Offering />
+      <CarouselPage />
       <Footer />
     </main>
   );
