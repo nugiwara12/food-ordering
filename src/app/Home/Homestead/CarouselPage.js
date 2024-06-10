@@ -35,7 +35,7 @@ const slides = [
   },
   {
     image: "/menu/tagalog/pancit.png",
-    name: "Pancit Guisado",
+    name: "PANCIT GUISADO",
     position: "Tagalog Foods",
     quotes:
       "“Pancit Bihon Guisado is a popular Filipino noodles dish made with bihon, karne, hipon, and gulay, a part of the country's culture and cuisine.”",

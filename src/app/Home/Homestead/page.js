@@ -10,8 +10,8 @@ const Homestead = () => {
       <section className="h-screen flex items-center justify-center">
         <div className="container mx-auto px-4 h-full flex items-center justify-center">
           <div className="text-center text-white max-w-prose">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Food<span className="text-yellow-600">Hub</span>
+            <h1 className="text-4xl text-black md:text-6xl font-bold mb-4 bg-yellow-600 border border-white p-4 rounded-lg">
+              FoodHub
             </h1>
             <p className="text-lg md:text-2xl mb-6 break-words">
               To satisfy your appetites, FoodHub provides scrumptious, freshly
@@ -19,17 +19,17 @@ const Homestead = () => {
               tradition and flavor, making you fall in love with every bite.
             </p>
             <a
-              href="#"
+              href="#features"
               className="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
             >
-              Get Started
+              Read More
             </a>
           </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <div className="container mx-auto px-4">
+      <div id="features" className="container mx-auto px-4">
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white">
             Our Features
