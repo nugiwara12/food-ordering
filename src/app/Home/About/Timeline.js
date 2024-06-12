@@ -17,7 +17,7 @@ const Timeline = () => {
             <div className="flex flex-col md:flex-row items-center w-full">
               <div className="w-full md:w-1/2 md:pr-8">
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-2xl font-bold mb-2">2010 - Conception</h3>
+                  <h3 className="text-2xl font-bold mb-2">FoodHub</h3>
                   <p className="text-gray-600">
                     A group of local farmers and community activists in a small
                     town brainstorm the idea of a centralized hub to connect
@@ -37,10 +37,15 @@ const Timeline = () => {
               <div className="hidden md:block w-1/2"></div>
               <div className="w-full md:w-1/2 md:pl-8">
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-2xl font-bold mb-2">Milestone Two</h3>
-                  <p className="text-gray-600">Description of milestone two.</p>
+                  <h3 className="text-2xl font-bold mb-2">FoodHub Mission</h3>
+                  <p className="text-gray-600">
+                    FoodHub is a platform that promotes food as a universal
+                    language, connects farmers, and supports health, wellness,
+                    and sustainability through eco-friendly packaging and
+                    regenerative agriculture.
+                  </p>
                   <span className="text-yellow-600 block mt-4">
-                    Timeline of FoodHub 1
+                    Timeline of FoodHub
                   </span>
                 </div>
               </div>
@@ -49,9 +54,12 @@ const Timeline = () => {
             <div className="flex flex-col md:flex-row items-center w-full">
               <div className="w-full md:w-1/2 md:pr-8">
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-2xl font-bold mb-2">Milestone Three</h3>
+                  <h3 className="text-2xl font-bold mb-2">FoodHub Vission</h3>
                   <p className="text-gray-600">
-                    Description of milestone three.
+                    FoodHub enhances food experiences by promoting flavor,
+                    health, and community through diverse ingredients, recipes,
+                    and sustainable sourcing, while also fostering an educated
+                    food lover community.
                   </p>
                   <span className="text-yellow-600 block mt-4">
                     Timeline of FoodHub
@@ -65,9 +73,12 @@ const Timeline = () => {
               <div className="hidden md:block w-1/2"></div>
               <div className="w-full md:w-1/2 md:pl-8">
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h3 className="text-2xl font-bold mb-2">Milestone Four</h3>
+                  <h3 className="text-2xl font-bold mb-2">FoodHub Service</h3>
                   <p className="text-gray-600">
-                    Description of milestone four.
+                    FoodHub focuses on providing high-quality service,
+                    sustainability, and user-friendly websites, partnering with
+                    top logistics providers for secure delivery, and promoting a
+                    sense of belonging through events and workshops.
                   </p>
                   <span className="text-yellow-600 block mt-4">
                     Timeline of FoodHub
