@@ -115,16 +115,16 @@ const Footer = () => {
                 />
               </a>
             </div>
-            <div class="w-full h-fullbg-pink-500">
+            <div className="w-full h-fullbg-pink-500">
               <Image
                 height={50}
-                width={330}
+                width={300}
                 src="/logo/foodhub.png"
                 alt="Logo"
-                className="mr-2 h-60 p-4"
+                className="mr-2 h-64 p-4"
               />
             </div>
-            <div class="flex justify-center items-center text-sm font-normal">
+            <div className="flex justify-center items-center text-sm font-normal">
               <form className="p-6 max-w-md mx-auto" onSubmit={handleSubscribe}>
                 <div className="note mb-4 text-center">
                   <label className="text-start text-white block text-xl font-semibold mb-2">
