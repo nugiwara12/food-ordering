@@ -47,7 +47,7 @@ const CarouselPage = () => {
     <div className="py-20 container mx-auto text-white">
       <div className="container mx-auto px-4 h-full flex items-center justify-center">
         <div className="text-center text-white max-w-prose">
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Food<span className="text-yellow-600">Hub</span>
           </h1>
           <p className="text-lg md:text-2xl mb-6 break-words">
