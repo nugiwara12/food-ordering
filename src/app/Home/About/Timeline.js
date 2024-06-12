@@ -2,10 +2,7 @@ import React from "react";
 
 const Timeline = () => {
   return (
-    <section
-      className="py-12 bg-gray-100 bg-cover bg-center bg-no-repeat min-h-screen"
-      style={{ backgroundImage: 'url("/logo/background.jpg")' }}
-    >
+    <section className="py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl text-white md:text-4xl font-bold">
