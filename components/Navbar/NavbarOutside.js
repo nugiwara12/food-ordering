@@ -126,7 +126,7 @@ const Navbar = () => {
                     Tagalog
                   </a>
                   <a
-                    href="#"
+                    href="/Home/Menu/Ilocano"
                     className="block px-4 py-2 text-sm text-gray-800 font-semibold hover:bg-yellow-600 hover:text-white"
                   >
                     Ilocano
@@ -241,7 +241,7 @@ const Navbar = () => {
                       Tagalog
                     </a>
                     <a
-                      href="#"
+                      href="/Home/Menu/Ilocano"
                       className="block px-4 py-2 text-sm text-black font-semibold hover:bg-yellow-600 hover:text-gray-200"
                     >
                       Ilocano
