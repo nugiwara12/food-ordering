@@ -26,7 +26,7 @@ const Message = () => {
       "📧 Your Email has been sent! Thank you so much for reaching out.",
       {
         position: "top-right",
-        autoClose: 5000,
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -34,13 +34,6 @@ const Message = () => {
         progress: undefined,
       }
     );
-
-    // Reset the form fields
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
-    });
   };
   return (
     <>
@@ -59,10 +52,7 @@ const Message = () => {
           </div>
           <div className="w-full md:w-full mr-0 md:mr-10">
             <div className="flex items-center justify-center min-h-screen">
-              <form
-                className="bg-white shadow-lg rounded-lg p-6 max-w-md mx-auto"
-                onSubmit={handleSendEmail}
-              >
+              <form className="bg-white shadow-lg rounded-lg p-6 max-w-md mx-auto">
                 <div className="mb-4 flex justify-center">
                   <MdOutlineMarkEmailUnread className="text-yellow-600 h-20 w-20" />
                 </div>
