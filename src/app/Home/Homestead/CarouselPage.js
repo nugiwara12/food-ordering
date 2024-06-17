@@ -72,7 +72,7 @@ const CarouselPage = () => {
                     className="flex justify-center items-center w-40 h-40 rounded-full object-cover mb-10"
                   />
                 </div>
-                <div className="flex justify-center text-center text-black font-bold text-2xl mb-2 transition-opacity duration-500">
+                <div className="flex justify-center text-center text-yellow-600 font-bold text-2xl mb-2 transition-opacity duration-500">
                   {item.name}
                 </div>
                 <div className="text-center text-gray-100 text-md mb-8 transition-opacity duration-500">
