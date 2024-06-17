@@ -47,13 +47,14 @@ const Message = () => {
       <ToastContainer />
       <div className="container mx-auto my-48 px-4 md:px-0">
         <div className="flex flex-col md:flex-row items-center justify-center rounded-lg shadow-lg md:shadow-yellow-600">
-          <div className="mb-8 md:mb-0 md:w-full">
+          <div className="mb-8 md:mb-0 w-full">
             <Image
               width={100}
               height={100}
               src="/contact/contact.gif"
               alt="Contact Image"
-              className="w-full"
+              className="w-full h-auto"
+              unoptimized
             />
           </div>
           <div className="w-full md:w-full mr-0 md:mr-10">
