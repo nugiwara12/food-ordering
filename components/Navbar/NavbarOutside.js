@@ -131,6 +131,12 @@ const Navbar = () => {
                   >
                     Ilocano
                   </a>
+                  <a
+                    href="/Home/Menu/Bicolano"
+                    className="block px-4 py-2 text-sm text-gray-800 font-semibold hover:bg-yellow-600 hover:text-white"
+                  >
+                    Bicolano
+                  </a>
                 </div>
               )}
             </div>
@@ -245,6 +251,12 @@ const Navbar = () => {
                       className="block px-4 py-2 text-sm text-black font-semibold hover:bg-yellow-600 hover:text-gray-200"
                     >
                       Ilocano
+                    </a>
+                    <a
+                      href="/Home/Menu/Bicolano"
+                      className="block px-4 py-2 text-sm text-black font-semibold hover:bg-yellow-600 hover:text-gray-200"
+                    >
+                      Bicolano
                     </a>
                   </div>
                 )}
