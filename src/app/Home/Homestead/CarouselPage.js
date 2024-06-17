@@ -13,13 +13,6 @@ const slides = [
       "“Kapampangan adobo, a regional variation of Filipino adobo, is a rich, bold, and tangy dish traditionally served with pork or chicken, reflecting the Kapampangan peoples culinary heritage.”",
   },
   {
-    image: "/menu/kapampangan/kaldereta.png",
-    name: "KALDERETA",
-    position: "Kapampangan Foods",
-    quotes:
-      "“Kapampangan Kaldereta, a regional Filipino stew from Pampanga, features tender meat chunks in a tomato-based sauce with native ingredients, showcasing culinary expertise.”",
-  },
-  {
     image: "/menu/tagalog/bulalo.png",
     name: "BULALO",
     position: "Tagalog Foods",
@@ -27,11 +20,32 @@ const slides = [
       "“Bulalo, a popular Filipino beef soup, is a hearty comfort food made with beef shanks, marrow bones, onions, garlic, and peppercorns, enjoyed hot or with family.”",
   },
   {
+    image: "/menu/kapampangan/kaldereta.png",
+    name: "KALDERETA",
+    position: "Kapampangan Foods",
+    quotes:
+      "“Kapampangan Kaldereta, a regional Filipino stew from Pampanga, features tender meat chunks in a tomato-based sauce with native ingredients, showcasing culinary expertise.”",
+  },
+  {
+    image: "/menu/bicolano/laing.png",
+    name: "LAING",
+    position: "Bicolano Foods",
+    quotes:
+      "“Laing, a traditional Filipino dish from Bicol, is a creamy coconut milk sauce with a spicy kick, showcasing the region's love for coconut milk and chili peppers.”",
+  },
+  {
     image: "/menu/tagalog/letchon.png",
     name: "LETCHON",
     position: "Tagalog Foods",
     quotes:
       "“Lechon, a Filipino culinary masterpiece, is a whole roasted pig dish with crispy skin and tender meat, symbolizing joy and Filipino culinary heritage.”",
+  },
+  {
+    image: "/menu/ilocano/bagnet.png",
+    name: "BAGNET",
+    position: "Ilocano Foods",
+    quotes:
+      "“Bagnet, a popular Ilocos dish, is a deep-fried pork belly with a crispy texture and savory flavor, often compared to lechon kawali but with unique preparation methods.”",
   },
   {
     image: "/menu/tagalog/pancit.png",
@@ -55,11 +69,11 @@ const slides = [
       "“Dinakdakan, a popular Ilocano finger food or appetizer, is a rich, savory dish similar to sisig but with unique preparation and ingredients.”",
   },
   {
-    image: "/menu/ilocano/bagnet.png",
-    name: "BAGNET",
-    position: "Ilocano Foods",
+    image: "/menu/bicolano/bicol-express.png",
+    name: "BICOL EXPRESS",
+    position: "Bicolano Foods",
     quotes:
-      "“Bagnet, a popular Ilocos dish, is a deep-fried pork belly with a crispy texture and savory flavor, often compared to lechon kawali but with unique preparation methods.”",
+      "“Bicol Express, a popular Filipino dish from the Bicol region, is a staple in Bicolano cuisine known for its creamy, spicy, and savory flavors.”",
   },
 ];
 
