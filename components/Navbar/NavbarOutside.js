@@ -63,16 +63,16 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="flex justify-center item-center bg-black w-full h-24">
+    <nav className="flex justify-center item-center bg-black w-full h-28">
       <div className="container mx-auto flex justify-between items-center px-4 lg:px-4">
         <div className="text-white text-3xl font-bold">
           <a href="/">
             <Image
-              width={200}
-              height={200}
+              width={100}
+              height={100}
               src="/logo/foodhub.png"
               alt="logo"
-              className="h-16 w-full max-w-xs"
+              className="h-auto max-w-xs md:max-w-sm lg:max-w-md"
             />
           </a>
         </div>
