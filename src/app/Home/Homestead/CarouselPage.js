@@ -40,6 +40,27 @@ const slides = [
     quotes:
       "“Pancit Bihon Guisado is a popular Filipino noodles dish made with bihon, karne, hipon, and gulay, a part of the country's culture and cuisine.”",
   },
+  {
+    image: "/menu/ilocano/pakbet.png",
+    name: "PAKBET",
+    position: "Ilocano Foods",
+    quotes:
+      "“Pakbet, a traditional Ilocano dish, is a dish where vegetables are simmered until they shrink, intensifying their flavors.”",
+  },
+  {
+    image: "/menu/ilocano/dinakdakan.png",
+    name: "DINAKDAKAN",
+    position: "Ilocano Foods",
+    quotes:
+      "“Dinakdakan, a popular Ilocano finger food or appetizer, is a rich, savory dish similar to sisig but with unique preparation and ingredients.”",
+  },
+  {
+    image: "/menu/ilocano/bagnet.png",
+    name: "BAGNET",
+    position: "Ilocano Foods",
+    quotes:
+      "“Bagnet, a popular Ilocos dish, is a deep-fried pork belly with a crispy texture and savory flavor, often compared to lechon kawali but with unique preparation methods.”",
+  },
 ];
 
 const CarouselPage = () => {
